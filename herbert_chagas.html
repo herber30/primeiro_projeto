@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fórum Rick and Morty</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        .post {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Fórum Rick and Morty</h1>
+    </header>
+    <div class="container">
+        <h2>Discussões</h2>
+        <div class="post">
+            <h3>Tópico 1: Personagens Favoritos</h3>
+            <p>Quem é o seu personagem favorito em Rick and Morty? Compartilhe suas opiniões e teorias!</p>
+        </div>
+        <div class="post">
+            <h3>Tópico 2: Teorias sobre o Multiverso</h3>
+            <p>Vamos discutir as teorias sobre o multiverso apresentadas na série. O que você acha das viagens
+                dimensionais?</p>
+        </div>
+        <h2>Criar Novo Tópico</h2>
+        <form>
+            <label for="titulo">Título do Tópico:</label>
+            <input type="text" id="titulo" name="titulo" required><br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+            <button type="submit">Publicar</button>
+        </form>
+    </div>
+</body>
+
+</html>
